@@ -20,6 +20,7 @@ string confirm_password;
 string username_login;
 string password_login;
 
+//List that contains the options that the user has  
 
 options_list:
   cout << "\t\n\n1) Register";
@@ -27,6 +28,7 @@ options_list:
   cout << "\n3) Exit\n";
 
 cin >> options;
+
 
 
 switch(options){
