@@ -20,7 +20,8 @@ string confirm_password;
 string username_login;
 string password_login;
 
-
+//List of options that the user may choose from
+  
 options_list:
   cout << "\t\n\n1) Register";
   cout << "\n2) Login";
